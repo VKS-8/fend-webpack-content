@@ -18,7 +18,7 @@ module.exports = {
         new HtmlWebPackPlugin({
             template: "./src/client/views/index.html",
             filename: "./index.html",
-            inject: true
+            inject: "body"
         })
     ]
 }
